@@ -1,0 +1,36 @@
+.subscribe-field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 152px;
+    gap: 42px;
+}
+.subscribe-heading{
+    text-align: center;
+    font-family: Helvetica Now Display;
+    font-size: 55px;
+    font-weight: 500;
+    color: var(--color-white);
+}
+.subscribe-input-fields{
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+.user-name{
+    width: 276px;
+    height: 53px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+#submit-btn{
+    width: 116px;
+    height: 53px;
+    border-radius: 0 8px 8px 0;
+    background-color: var(--color-primary);
+    border: none;
+}
+.email{
+    width: 276px;
+    height: 53px;
+    border: none;
+}

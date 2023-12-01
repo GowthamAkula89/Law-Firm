@@ -1,0 +1,32 @@
+.expand-img{
+    width: 28px;
+    height: 28px;
+    fill: var(--color-primary);
+}
+.expand-icon{
+    position: relative;
+}
+.expand-plus{
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 1px;
+    left: 9px;
+}
+.accordian-heading{
+    background-color: var(--color-black) !important;
+    color: var(--color-white) !important;
+}
+.accordian-text-container{
+    background-color: var(--color-black) !important;
+}
+.heading-text{
+    font-size: 24px !important;
+    font-weight: 600 !important;
+}
+.accordian-text{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: var(--color-white) !important;
+    opacity: 0.3;
+}

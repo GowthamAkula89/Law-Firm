@@ -1,0 +1,17 @@
+.team-details{
+    margin-top: 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 114px;
+}
+.details-heading{
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--color-white);
+    text-align: center;
+}
+.team-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 18px;
+}

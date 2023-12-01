@@ -1,0 +1,24 @@
+.faq{
+    display: flex;
+    justify-content: space-between;
+    margin-top:152px;
+}
+.faq-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.faq-heading-text{
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+.faq-text{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-white);
+    opacity: 0.3;
+}
+.accordians{
+    width: 100%;
+}
