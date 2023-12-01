@@ -19,9 +19,9 @@ const ClientStories=()=>{
                 </div>
             </div>
             <div className="clients-cards">
-                <ClientCard/>
-                <ClientCard/>
-                <ClientCard/>
+                <ClientCard name={"Jane Cooper"} image={"client_img1.png"}/>
+                <ClientCard name={"Devon Lane"} image={"client_img2.png"}/>
+                <ClientCard name={"Robert Fox"} image={"client_img3.png"}/>
             </div>
             
         </div>
