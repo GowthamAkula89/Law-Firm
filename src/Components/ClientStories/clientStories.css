@@ -1,0 +1,41 @@
+.client-stories{
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+    margin-top: 152px;
+}
+.client-stories-header{
+    display: flex;
+    justify-content: space-between;
+}
+.client-stories-title{
+    width: 374px;
+    height: 174px;
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+.clients-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+.prev-next-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 25px;
+}
+.icon{
+    position: relative;
+    cursor: pointer;
+}
+.ellipse-img{
+    width: 101px;
+    height: 101px;
+}
+.arrow{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}

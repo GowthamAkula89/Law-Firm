@@ -1,0 +1,36 @@
+.client-card{
+    width: 342px;
+    height: 351px;
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.10);
+    overflow: hidden;
+}
+.client-card :hover{
+    background: #2E2E2E;
+}
+.client-card-details{
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.client-img{
+    width: 105px;
+    height: 102px;  
+}
+.client-name{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+.client-positon{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-white);
+    opacity: 0.3;
+}

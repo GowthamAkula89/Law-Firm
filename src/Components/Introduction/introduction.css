@@ -1,0 +1,34 @@
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 152px;
+}
+.intro-heading{
+    width: 387px;
+    height: 174px;
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+.intro-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.intro-text-1{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+.intro-text-2{
+    width: 475px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-white);
+    opacity: 0.3;
+}
+.vertical-line{
+    border: 2px solid var(--color-white) ;
+    height: 174px;
+    opacity: 0.3;
+}

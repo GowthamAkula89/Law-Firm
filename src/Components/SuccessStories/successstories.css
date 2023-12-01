@@ -1,0 +1,16 @@
+.success-stories{
+    display: flex;
+    flex-direction: column;
+    margin-top: 152px;
+    gap: 97px;
+}
+.stories-heading{
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--color-white);
+    text-align: center;
+}
+.stories{
+    display: flex;
+    justify-content: space-between;
+}

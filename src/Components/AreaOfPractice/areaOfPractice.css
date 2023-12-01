@@ -1,0 +1,45 @@
+.area-of-practice{
+    display: flex;
+    flex-direction: column;
+    gap: 152px;
+    margin-top: 152px;
+}
+.area-field-text{
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--color-white);
+}
+.img-area-field{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bussiness-area{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.bussiness-type{
+    position: relative;
+}
+.bussiness-text-1{
+    font-size: 24px;
+    font-weight: 600;
+    color:var(--color-white);
+    position:absolute;
+    bottom: 0;
+    left: 38%;
+}
+.bussiness-text-2{
+    font-size: 24px;
+    font-weight: 600;
+    color:var(--color-white);
+    position:absolute;
+    bottom: 0;
+    left: 20%;
+}
+.bussiness-img{
+    width: 100%;
+    height: 100%;
+}
